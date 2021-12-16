@@ -1,3 +1,11 @@
+// Task:
+// - Write a function to select a suitable movie based on the age group and genre provided.
+//  - Display it in the suggested-movie paragraph when the button is clicked.
+
+// Stretch goals:
+// - Have the function run on each change of the <select> tags.
+// - Add more movies/complexity - for example black and white vs color, preferred actors, etc.
+
 const ageSelector = document.getElementById('age-selector');
 const genreSelector = document.getElementById('genre-selector');
 
@@ -49,11 +57,3 @@ function selectMovie(event) {
 
 ageSelector.onchange = selectMovie;
 genreSelector.onchange = selectMovie;
-
-// Task:
-// - Write a function to select a suitable movie based on the age group and genre provided.
-//  - Display it in the suggested-movie paragraph when the button is clicked.
-
-// Stretch goals:
-// - Have the function run on each change of the <select> tags.
-// - Add more movies/complexity - for example black and white vs color, preferred actors, etc.

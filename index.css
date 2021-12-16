@@ -41,8 +41,13 @@ body {
 }
 
 h1 {
+  font-weight: normal;
   margin-bottom: 0;
   color: var(--dark-green);
+}
+
+h1 span {
+  font-weight: bold;
 }
 
 .suggested-movie {
